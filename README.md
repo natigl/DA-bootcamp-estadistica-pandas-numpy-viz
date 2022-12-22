@@ -53,5 +53,5 @@ ESTADÍSTICA
 
 REPASO ESTADÍSTICA Y VISUALIZACIÓN
 
-- Conceptos Resumidos --> Sin terminar (Falta interpretar datos)
+- Conceptos Resumidos --> Sin terminar
 
