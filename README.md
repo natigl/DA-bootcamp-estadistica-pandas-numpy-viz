@@ -35,7 +35,7 @@ VISUALIZACIÓN
 
 - Visualización I: Matplotlib --> Hechos / Comentados
 
-- Visualización II: Personalizando Matplotlib --> Sin terminar
+- Visualización II : Hecho
 
 - Visualización III: Seaborn --> Hechos / Comentados
 
@@ -45,7 +45,7 @@ ESTADÍSTICA
 
 - Estadística I: Introducción --> Hechos / Comentados (Falta interpretación último ejercicio)
 
-- Estadística II: Percentiles y rangos intercuartílicos --> Hechos / Comentados (Falta interpretar datos)
+- Estadística II: Percentiles y rangos intercuartílicos --> Hechos (revisar tabla relativas, ultimo)
 
 - Estadística III: Tablas de contingencia, correlación, sesgos e intervalos de confianza --> Hechos / Comentados (Falta interpretar datos)
 
