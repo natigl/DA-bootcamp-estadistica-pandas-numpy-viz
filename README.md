@@ -43,15 +43,15 @@ VISUALIZACIÓN
 
 ESTADÍSTICA
 
-- Estadística I: Introducción --> Hechos / Comentados (Falta interpretación último ejercicio)
+- Estadística I: Introducción --> Hechos / Comentados (Revisar interpretación de los datos)
 
-- Estadística II: Percentiles y rangos intercuartílicos --> Hechos (revisar tabla relativas, ultimo)
+- Estadística II: Percentiles y rangos intercuartílicos --> Hechos (Revisar última tabla de frecuencia e interpretación de los datos)
 
-- Estadística III: Tablas de contingencia, correlación, sesgos e intervalos de confianza --> Hechos / Comentados (Falta interpretar datos)
+- Estadística III: Tablas de contingencia, correlación, sesgos e intervalos de confianza --> Hechos / Comentados (Revisar interpretación de los datos)
 
 ---
 
 REPASO ESTADÍSTICA Y VISUALIZACIÓN
 
-- Conceptos Resumidos --> Hechos / Comentados (Falta interpretar datos)
+- Conceptos Resumidos --> Sin terminar (Falta interpretar datos)
 
