@@ -1,6 +1,6 @@
 # DA-promo-c-modulo-2-sprint-1-natalia-marina
 
-Repositorio para los ejercicios de Numpy, Pandas y Visualicación de los pair-programing del módulo 2-sprint 1 del Bootcamp de Data Analyst, realizados en la modalidad de pair programming. 
+Repository for the Numpy, Pandas and Visualization exercises of the pair-programming of the module 2-sprint 1 from the Data Analytics Bootcamp.
 
 ---
 
