@@ -6,13 +6,13 @@ Repositorio para los ejercicios de Numpy, Pandas y Visualicación de los pair-pr
 
 NUMPY:
 
-- Numpy I: Introducción a numpy
+- Numpy I: Introduction
 
-- Numpy II: Indexación
+- Numpy II: Indexation
 
-- Numpy III: Operaciones estadísticas y matemáticas 
+- Numpy III: Statistical and mathematical operations 
 
-- Numpy IV: Conjuntos, distribuciones aleatorias
+- Numpy IV: Sets, random distributions
 
 📖 LIBRARIES USED:
 
@@ -26,15 +26,15 @@ NUMPY:
 
 PANDAS
 
-- Pandas I: DataFrames y Series
+- Pandas I: DataFrames & Series
 
-- Pandas II: Carga y guardado de datos
+- Pandas II: Data loading and saving
 
-- Pandas III: Métodos Pandas
+- Pandas III: Pandas Methods
 
-- Pandas IV: Filtrado de datos 
+- Pandas IV: Filtering of data
 
-- Pandas V: Unión de datos 
+- Pandas V: Data link
 
 - Pandas VI: Groupby 
 
@@ -54,7 +54,7 @@ VISUALIZACIÓN
 
 - Visualización I: Matplotlib 
 
-- Visualización II : Personalización 
+- Visualización II : Customization
 
 - Visualización III: Seaborn
 
@@ -74,9 +74,9 @@ ESTADÍSTICA
 
 - Estadística I: Introducción 
 
-- Estadística II: Percentiles y rangos intercuartílicos
+- Estadística II: Percentiles & IQR
 
-- Estadística III: Tablas de contingencia, correlación, sesgos e intervalos de confianza 
+- Estadística III: Contingency tables, correlation, skewness and confidence intervals 
 
 📖 LIBRARIES USED:
 
@@ -87,5 +87,4 @@ ESTADÍSTICA
 
 REPASO ESTADÍSTICA Y VISUALIZACIÓN
 
-- Conceptos Resumidos
 
