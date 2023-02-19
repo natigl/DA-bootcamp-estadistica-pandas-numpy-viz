@@ -16,11 +16,11 @@ NUMPY:
 
 📖 LIBRARIES USED:
 
--Numpy
+  -Numpy
 
--Random
+  -Random
 
--Pandas
+  -Pandas
 
 ---
 
