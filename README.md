@@ -4,40 +4,69 @@ Repositorio para los ejercicios de Numpy, Pandas y Visualicación de los pair-pr
 
 ---
 
-NUMPY
+NUMPY:
 
-- Numpy I: Introducción a numpy --> Hechos / Comentados
-- Numpy II: Indexación --> Hechos / Comentados
-- Numpy III: Operaciones estadísticas y matemáticas --> Hechos / Comentados
-- Numpy IV: Conjuntos, distribuciones aleatorias --> Hechos / Comentados
+- Numpy I: Introducción a numpy
+
+- Numpy II: Indexación
+
+- Numpy III: Operaciones estadísticas y matemáticas 
+
+- Numpy IV: Conjuntos, distribuciones aleatorias
+
+📖 LIBRARIES USED:
+
+-Numpy
+
+-Random
+
+-Pandas
 
 ---
 
 PANDAS
 
-- Pandas I: DataFrames y Series --> Hechos / Comentados
+- Pandas I: DataFrames y Series
 
-- Pandas II: Carga y guardado de datos --> Hechos / Comentados
+- Pandas II: Carga y guardado de datos
 
-- Pandas III: Métodos Pandas --> Hechos / Comentados
+- Pandas III: Métodos Pandas
 
-- Pandas IV: Filtrado de datos --> Hechos / Comentados
+- Pandas IV: Filtrado de datos 
 
-- Pandas V: Unión de datos --> Hechos / Comentados
+- Pandas V: Unión de datos 
 
-- Pandas VI: Groupby --> Hechos / Comentados
+- Pandas VI: Groupby 
 
-- Pandas VII: Apply --> Hechos / Comentados
+- Pandas VII: Apply 
+
+📖 LIBRARIES USED:
+
+- Pandas
+
+- Numpy
+
+- Regex
 
 ---
 
 VISUALIZACIÓN
 
-- Visualización I: Matplotlib --> Hechos / Comentados
+- Visualización I: Matplotlib 
 
-- Visualización II : Hecho
+- Visualización II : Personalización 
 
-- Visualización III: Seaborn --> Hechos / Comentados
+- Visualización III: Seaborn
+
+📖 LIBRARIES USED:
+
+- Matplotlib
+
+- Numpy
+
+- Pandas
+
+- Seaborn
 
 ---
 
@@ -49,9 +78,14 @@ ESTADÍSTICA
 
 - Estadística III: Tablas de contingencia, correlación, sesgos e intervalos de confianza --> Hechos / Comentados (Revisar interpretación de los datos)
 
+📖 LIBRARIES USED:
+
+- Scipy
+
+- Pandas, Numpy....
 ---
 
 REPASO ESTADÍSTICA Y VISUALIZACIÓN
 
-- Conceptos Resumidos --> Sin terminar
+- Conceptos Resumidos
 
