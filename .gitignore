@@ -1,129 +1,88 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-.python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
+NUMPY 3 EJERCICIO 5 A FINAL 
+"""
+Creamos un array vacio con la forma y dimensiones del array anterior, 
+pero especificamos que los datos serán tipo string, ya que vamos a insertarle
+valores de ese tipo
+"""
+    arr_vacio = np.empty_like(arr1, dtype= str)
+    arr_vacio
+    
+    a, b, c =np.where(arr1== 0.9)
+    d, e, f, = np.where(arr1 == 0.9)
+    # iteramos por cada matriz del array original
+for i in arr1:
+    # iteramos por cada fila de la matriz
+    for m in i:
+        # iteramos por cada elemento de la fila
+        for x in m:
+            # si el elemento es igual a la media
+            if x == media_arr1:
+                # Buscamos la posición de ese elemento con np.where, y guardamos cada array de posiciones(matriz, fila y columna) en una variable separado
+                d, e, f = np.where(arr1== x)
+                # Convertimos las variables en una tupla con el índice de matriz, fila y columna de cada posición usando el método zip
+                prueba = tuple(zip(d,e,f))
+                # Mediante un contador y un while, usamos la tupla para modificar el valor, asegurandonos de pasar por todos los índices obtenidos
+                p = 0
+                while p < len(prueba):
+                    arr_vacio[prueba[p]] = "A"
+                    p += 1
+            if x > media_arr1:
+                p = 0
+                d, e, f = np.where(arr1== x)
+                prueba = tuple(zip(d,e,f))
+                while p < len(prueba):
+                    arr_vacio[prueba[p]] = "B"
+                    p += 1
+            if x < media_arr1:
+                p = 0
+                d, e, f = np.where(arr1== x)
+                prueba = tuple(zip(d,e,f))
+                while p < len(prueba):
+                    arr_vacio[prueba[p]] = "C"
+                    p += 1
+            if x == max_arr1:
+                p = 0
+                d, e, f = np.where(arr1== x)
+                prueba = tuple(zip(d,e,f))
+                while p < len(prueba):
+                    arr_vacio[prueba[p]] = "D"
+                    p += 1
+            if x == min_arr1:
+                p = 0
+                d, e, f = np.where(arr1== x)
+                prueba = tuple(zip(d,e,f))
+                while p < len(prueba):
+                    arr_vacio[prueba[p]] = "E"
+                    p += 1
+arr_vacio
+# Creamos un array vacio unidimensional de 30 elementos
+arr30 = np.empty(30)
+arr30
+# Creamos un array convirtiendo el vacio en un array unidimensional, de manera que los dos arrays tengan la misma forma
+arr_vacio_unidem = np.reshape(arr_vacio, 30)
+arr_vacio_unidem
+# Iteramos por el array vacio unidimensional
+for i in arr_vacio_unidem:
+    # Si el elemento es igual a "A" o "B"
+    if i == "A" or i == "B": 
+        # Buscamos la posición del elemento en el array, lo metemos en una variable 
+        d = np.where(arr_vacio_unidem== i)
+        # iteramos por la variable para obtener la posición y modificamos el arr30 en esa posición
+        for num in d:
+            for yo in num:
+                arr30[yo] = 1
+        
+    if i == "C" or i == "D":
+        d = np.where(arr_vacio_unidem== i)
+        for num in d:
+            for yo in num:
+                arr30[yo] = 2
+    if i == "E":
+        d = np.where(arr_vacio_unidem== i)
+        for num in d:
+            for yo in num:
+                arr30[yo] = 3
+print(arr30)
+print("--------------------------")                  
+arr_def = np.reshape(arr30, (2,3,5))
+arr_def
